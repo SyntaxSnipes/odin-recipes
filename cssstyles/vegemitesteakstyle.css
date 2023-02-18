@@ -1,0 +1,76 @@
+* {
+    background-color: #24252a;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+*:hover{
+    color: lightblue;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    object-fit: cover;
+    height: 375px;
+    width: 400px;
+}
+
+
+.desc h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+
+
+.ingrd h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.ingrd p{
+    padding-left: 5%;
+}
+
+
+.steps h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+.list{
+    padding: 10px 5px;
+}
+.list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2px;
+    margin-right: 10px;
+    list-style-type: none;
+
+}
+
+.list ul li a:hover{
+    color: lightblue;
+}

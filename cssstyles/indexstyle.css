@@ -1,0 +1,57 @@
+* {
+    background-color: #24252a;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    object-fit: cover;
+    flex-grow: 1;
+}
+.list{
+    padding: 10px 5px;
+}
+.list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2px;
+    margin-right: 10px;
+    list-style-type: none;
+
+}
+
+.list ul li a:hover{
+    color: lightblue;
+}
+
+
+button {
+    font-size: medium;
+    list-style-type: none;
+    border-radius: 5%;
+    height: 40px;
+    width: 350px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+}
+
+button:active{
+    background-color: white;
+    color: red;
+}
+
